@@ -1,4 +1,5 @@
 body {
+  background-color: orange;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -6,8 +7,8 @@ body {
 
 h1 {
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color: rgb(219, 129, 45);
+  color: black;
   margin: 20px;
   padding: 20px;
 }
@@ -15,14 +16,24 @@ h1 {
 p  {
     font-family: verdana;
     font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    color: white;
 
 }
 h2{
-    background-color: yellowgreen;
+    background-color: rgb(219, 129, 45);
     color: black;
     margin: 20px;
     padding: 20px;
     text-align: left;
+
+}
+a {
+    font-family: verdana;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
 
 }
 
