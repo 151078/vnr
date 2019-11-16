@@ -6,6 +6,8 @@ body {
     padding: 0;
 }
 
+/* Header */
+
 header {
     background: black;
     background-image: url("image/hero.png");
@@ -17,27 +19,7 @@ header {
     
 }
 
-section {
-    background: white;
-    color: gray;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-}
-
-#features {
-    background: bleu;
-    margin: auto;
-    width: 100px;
-}
-
-div {
-    background: blue;
-    margin: auto;
-    width: 100px;
-}
-
-ul {
+nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -62,7 +44,8 @@ header .logo a {
     width: 300px;
 }
 
-li {
+
+nav li {
     display: inline-block;
     margin-right: 20px;
     border-radius: 3px;
@@ -70,7 +53,38 @@ li {
     margin-left: 20px;
 }
 
+/* Features */
+
+
+.features {
+    background-image: url("alsudan.jpg");
+    color:rgb(86, 152, 218);;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.features figure {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.features figure img {
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 10px;
+    width: 200px;
+}
+
+/* Footer */
+
 footer {
+    color: rgb(86, 152, 218);
     background: black;
-    padding: 10px 20px;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
+    height: 47px;
 }
