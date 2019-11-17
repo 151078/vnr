@@ -61,7 +61,7 @@ p {
     color: black;
 }
 
-video {
+iframe {
     display: block;
     margin: 0 auto;
 }
@@ -100,4 +100,8 @@ video {
     height: 46px;
     text-align: center;
     color:white;
+}
+
+a:hover {
+    color:green;
 }
